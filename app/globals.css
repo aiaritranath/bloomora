@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #1f4d36;
+  --color-leaf: #5fa84a;
+  --color-bloom: #ee6a4f;
+  --color-paper: #faf8f4;
+  --color-ink: #1d2421;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-bloom);
+  outline-offset: 2px;
+}

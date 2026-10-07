@@ -1,0 +1,23 @@
+node_modules
+.next
+out
+build
+coverage
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Generated
+/generated
+
+# OS / editor
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
+npm-debug.log*
